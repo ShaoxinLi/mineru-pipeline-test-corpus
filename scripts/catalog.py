@@ -10,6 +10,8 @@ from urllib.parse import quote
 import xml.etree.ElementTree as ET
 from zipfile import ZipFile
 
+from update_url_lists import update_url_lists
+
 import olefile
 from PIL import Image
 import pypdfium2 as pdfium
@@ -138,11 +140,12 @@ def main() -> None:
             row.update(bytes=item['validation']['bytes'], sha256=item['validation']['sha256'])
             writer.writerow(row)
     for filename, selected in [
-        ('urls.txt', entries), ('urls_smoke.txt', [x for x in entries if x['smoke']]),
+        ('urls_smoke.txt', [x for x in entries if x['smoke']]),
         ('urls_official_api.txt', [x for x in entries if x['documented_api']]),
         ('urls_extra_text.txt', [x for x in entries if not x['documented_api']]),
     ]:
         (ROOT / filename).write_text(''.join(item['url'] + '\n' for item in selected))
+    update_url_lists(ROOT)
     for model, name in [('vlm', 'vlm'), ('MinerU-HTML', 'html')]:
         selected = [x for x in entries if x['model_version'] == model]
         write_json(f'requests/{name}_batch.json', {'files': [{'url': x['url'], 'data_id': x['id']} for x in selected], 'model_version': model})

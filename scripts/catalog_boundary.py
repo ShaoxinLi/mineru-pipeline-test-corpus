@@ -5,6 +5,8 @@ from pathlib import Path
 import re
 import subprocess
 
+from update_url_lists import update_url_lists
+
 ROOT = Path(__file__).resolve().parents[1]
 REPOSITORY = 'ShaoxinLi/mineru-pipeline-test-corpus'
 TAG = 'boundary-v1'
@@ -30,6 +32,7 @@ def main() -> None:
                 'actual_pipeline_execution': 'not_run', 'samples': entries}
     (ROOT / 'boundary/manifest.json').write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + '\n')
     (ROOT / 'boundary/urls.txt').write_text(''.join(x['url'] + '\n' for x in entries))
+    update_url_lists(ROOT)
     (ROOT / 'boundary/requests.jsonl').write_text(''.join(json.dumps(x['single_request']) + '\n' for x in entries))
     checksums = ''.join(f"{x['sha256']}  {Path(x['path']).name}\n" for x in entries)
     (ROOT / 'boundary/SHA256SUMS').write_text(checksums)

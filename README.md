@@ -1,6 +1,6 @@
 # MinerU pipeline URL 测试集
 
-44 个样本，19 种扩展名，共约 7.48 MB。用于通过文件 URL 拉取输入的文档解析 pipeline。
+共 49 个样本，19 种扩展名：44 个基础样本（约 7.48 MB）和 5 个边界样本。用于通过文件 URL 拉取输入的文档解析 pipeline。
 所有样本均为公开项目测试文件、其明确标注的图片转换版本，或本仓库合成文件。
 
 另有 [5 个超页 / 超大边界样本](boundary/README.md)：200 页对照、201 页、1000 页 PDF，以及超过 200 MB 的 PDF 和 BMP。
@@ -11,11 +11,12 @@
 - [manifest.json](manifest.json)：机器可读清单，包含 URL、大小、SHA-256、来源 commit、许可、格式和测试分组。
 - [manifest.csv](manifest.csv)：便于表格工具查看的清单。
 - [urls_smoke.txt](urls_smoke.txt)：每种扩展名一个，共 19 个，适合第一轮连通性和格式测试。
-- [urls.txt](urls.txt)：全部 44 个文件的直链，一行一个。
+- **[urls.txt](urls.txt)：全部 49 个文件的 URL 汇总，一行一个；前 44 个为基础样本，最后 5 个为边界样本。**
+- [urls_regular.txt](urls_regular.txt)：原来的 44 个基础样本直链。
 - [urls_official_api.txt](urls_official_api.txt)：官网明确列出的格式，共 38 个文件。
 - [urls_extra_text.txt](urls_extra_text.txt)：额外文本格式，共 6 个文件。
 
-清单中的样本 URL 使用完整 Git commit 固定文件内容，不使用会变化的 `main`，不使用 Git LFS。
+普通样本 URL 使用完整 Git commit 固定文件内容；两个超大文件使用 `boundary-v1` Release 附件直链。全部样本均不使用 Git LFS。
 仓库为公开仓库，下载无需 GitHub 登录或 token。
 
 ## 范围
