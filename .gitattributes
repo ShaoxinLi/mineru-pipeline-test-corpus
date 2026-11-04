@@ -1,2 +1,3 @@
 # Preserve exact fixture bytes, including CRLF and non-UTF-8 text samples.
 samples/** -text
+boundary/files/** -text -diff
