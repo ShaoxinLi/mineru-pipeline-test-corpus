@@ -1,0 +1,6 @@
+https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/md/synthetic_bilingual_report.md
+https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/rst/synthetic_bilingual_report.rst
+https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/tex/synthetic_bilingual_report.tex
+https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/txt/synthetic_bilingual_report.txt
+https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/txt/synthetic_gb18030.txt
+https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/txt/synthetic_utf8_bom_crlf.txt

@@ -1,0 +1,9 @@
+{
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/html/synthetic_bilingual_report.html",
+      "data_id": "synthetic_bilingual_report_html"
+    }
+  ],
+  "model_version": "MinerU-HTML"
+}
