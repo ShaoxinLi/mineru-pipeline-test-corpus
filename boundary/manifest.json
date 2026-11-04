@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "sample_commit": "430af52d4f6dd02a09ca1cd192bdc6767c01cd02",
+  "release_tag": "boundary-v1",
+  "page_limit": 200,
+  "size_limit_documentation": "200 MB",
+  "size_convention_note": "Both large samples exceed 200,000,000 and 209,715,200 bytes.",
+  "actual_pipeline_execution": "not_run",
+  "samples": [
+    {
+      "id": "control_200_pages",
+      "path": "boundary/files/control_200_pages.pdf",
+      "extension": "pdf",
+      "hosting": "raw",
+      "scenario": "control",
+      "kind": "synthetic",
+      "license": "MIT",
+      "expected_boundary_behavior": "passes_page_and_size_precheck",
+      "actual_pipeline_result": "not_run",
+      "bytes": 206729,
+      "size_mb_decimal": 0.206729,
+      "size_mib": 0.197152,
+      "sha256": "73f9a99fe077cf2241f2f0e307249923d62da9b0725aec11c58dd623025b10cd",
+      "pages": 200,
+      "validation": "pypdf strict + PDFium page count and per-page text; first/middle/last rendered",
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/430af52d4f6dd02a09ca1cd192bdc6767c01cd02/boundary/files/control_200_pages.pdf",
+      "single_request": {
+        "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/430af52d4f6dd02a09ca1cd192bdc6767c01cd02/boundary/files/control_200_pages.pdf",
+        "data_id": "control_200_pages",
+        "model_version": "vlm"
+      }
+    },
+    {
+      "id": "over_limit_201_pages",
+      "path": "boundary/files/over_limit_201_pages.pdf",
+      "extension": "pdf",
+      "hosting": "raw",
+      "scenario": "page_count",
+      "kind": "synthetic",
+      "license": "MIT",
+      "expected_boundary_behavior": "reject_if_documented_limit_is_enforced",
+      "actual_pipeline_result": "not_run",
+      "bytes": 207761,
+      "size_mb_decimal": 0.207761,
+      "size_mib": 0.198136,
+      "sha256": "d5390803527b790e5e0a7df5c0ed44d73777dcb28ff33fb7571eddea8b51bce8",
+      "pages": 201,
+      "validation": "pypdf strict + PDFium page count and per-page text; first/middle/last rendered",
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/430af52d4f6dd02a09ca1cd192bdc6767c01cd02/boundary/files/over_limit_201_pages.pdf",
+      "single_request": {
+        "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/430af52d4f6dd02a09ca1cd192bdc6767c01cd02/boundary/files/over_limit_201_pages.pdf",
+        "data_id": "over_limit_201_pages",
+        "model_version": "vlm"
+      }
+    },
+    {
+      "id": "over_limit_1000_pages",
+      "path": "boundary/files/over_limit_1000_pages.pdf",
+      "extension": "pdf",
+      "hosting": "raw",
+      "scenario": "page_count",
+      "kind": "synthetic",
+      "license": "MIT",
+      "expected_boundary_behavior": "reject_if_documented_limit_is_enforced",
+      "actual_pipeline_result": "not_run",
+      "bytes": 1030535,
+      "size_mb_decimal": 1.030535,
+      "size_mib": 0.982795,
+      "sha256": "f726d17fb01f27211dc2d594bf37cfbf0f1c056d12f9148c132da16f01250a8c",
+      "pages": 1000,
+      "validation": "pypdf strict + PDFium page count and per-page text; first/middle/last rendered",
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/430af52d4f6dd02a09ca1cd192bdc6767c01cd02/boundary/files/over_limit_1000_pages.pdf",
+      "single_request": {
+        "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/430af52d4f6dd02a09ca1cd192bdc6767c01cd02/boundary/files/over_limit_1000_pages.pdf",
+        "data_id": "over_limit_1000_pages",
+        "model_version": "vlm"
+      }
+    },
+    {
+      "id": "oversize_10_pages_rgb",
+      "path": "boundary/release_assets/oversize_10_pages_rgb.pdf",
+      "extension": "pdf",
+      "hosting": "release",
+      "scenario": "file_size",
+      "kind": "synthetic",
+      "license": "MIT",
+      "expected_boundary_behavior": "reject_if_documented_limit_is_enforced",
+      "actual_pipeline_result": "not_run",
+      "bytes": 220338466,
+      "size_mb_decimal": 220.338466,
+      "size_mib": 210.131136,
+      "sha256": "2260fe65686ec995705f8177a5e4830fed8a46a81cc72ef5d2f6bf1079d605a9",
+      "pages": 10,
+      "validation": "pypdf strict + PDFium page count and per-page text; first/middle/last rendered",
+      "url": "https://github.com/ShaoxinLi/mineru-pipeline-test-corpus/releases/download/boundary-v1/oversize_10_pages_rgb.pdf",
+      "single_request": {
+        "url": "https://github.com/ShaoxinLi/mineru-pipeline-test-corpus/releases/download/boundary-v1/oversize_10_pages_rgb.pdf",
+        "data_id": "oversize_10_pages_rgb",
+        "model_version": "vlm"
+      }
+    },
+    {
+      "id": "oversize_9000x8000_rgb",
+      "path": "boundary/release_assets/oversize_9000x8000_rgb.bmp",
+      "extension": "bmp",
+      "hosting": "release",
+      "scenario": "file_size",
+      "kind": "synthetic",
+      "license": "MIT",
+      "expected_boundary_behavior": "reject_if_documented_limit_is_enforced",
+      "actual_pipeline_result": "not_run",
+      "bytes": 216000054,
+      "size_mb_decimal": 216.000054,
+      "size_mib": 205.993704,
+      "sha256": "a299964b274660df281bb314f03763c76a838446dbb25d3751b7e4a6b8ac5878",
+      "width": 9000,
+      "height": 8000,
+      "validation": "Pillow full pixel decode",
+      "url": "https://github.com/ShaoxinLi/mineru-pipeline-test-corpus/releases/download/boundary-v1/oversize_9000x8000_rgb.bmp",
+      "single_request": {
+        "url": "https://github.com/ShaoxinLi/mineru-pipeline-test-corpus/releases/download/boundary-v1/oversize_9000x8000_rgb.bmp",
+        "data_id": "oversize_9000x8000_rgb",
+        "model_version": "vlm"
+      }
+    }
+  ]
+}

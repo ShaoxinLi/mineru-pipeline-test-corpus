@@ -1,0 +1,5 @@
+{"url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/430af52d4f6dd02a09ca1cd192bdc6767c01cd02/boundary/files/control_200_pages.pdf", "data_id": "control_200_pages", "model_version": "vlm"}
+{"url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/430af52d4f6dd02a09ca1cd192bdc6767c01cd02/boundary/files/over_limit_201_pages.pdf", "data_id": "over_limit_201_pages", "model_version": "vlm"}
+{"url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/430af52d4f6dd02a09ca1cd192bdc6767c01cd02/boundary/files/over_limit_1000_pages.pdf", "data_id": "over_limit_1000_pages", "model_version": "vlm"}
+{"url": "https://github.com/ShaoxinLi/mineru-pipeline-test-corpus/releases/download/boundary-v1/oversize_10_pages_rgb.pdf", "data_id": "oversize_10_pages_rgb", "model_version": "vlm"}
+{"url": "https://github.com/ShaoxinLi/mineru-pipeline-test-corpus/releases/download/boundary-v1/oversize_9000x8000_rgb.bmp", "data_id": "oversize_9000x8000_rgb", "model_version": "vlm"}
