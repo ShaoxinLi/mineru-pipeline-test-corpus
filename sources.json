@@ -426,6 +426,23 @@
       "scenario": "jp2_upstream",
       "kind": "upstream",
       "modification": "none"
+    },
+    {
+      "id": "user_ghattack_paper",
+      "origin": "user-provided",
+      "repository": "ShaoxinLi/mineru-pipeline-test-corpus",
+      "commit": "dfe039231381c76d47e7607da9f77813a6b59950",
+      "source_path": "samples/pdf/ghattack.pdf",
+      "path": "samples/pdf/ghattack.pdf",
+      "extension": "pdf",
+      "original_filename": "GHAttack - Generative adversarial attacks on heterogeneous graph neural networks.pdf",
+      "source_size": 351085,
+      "source_git_blob_sha": "7126e8f1907ef474960fe036da78b56dc7ef9acb",
+      "license": "NOASSERTION",
+      "license_note": "User-provided paper, uploaded at the user's explicit request. Original rights and embedded notices retained; not relicensed under the repository MIT license.",
+      "scenario": "research_paper_heterogeneous_graph_adversarial_attacks",
+      "kind": "user-provided",
+      "modification": "none"
     }
   ],
   "scope": "15 extensions explicitly documented by https://mineru.net/apiManage/docs on 2026-11-04, plus user-requested md/txt/rst/tex (not documented API formats)."

@@ -24,3 +24,10 @@ License labels record the selected upstream revision's repository license; prese
 ## Original content
 
 The `synthetic_*` HTML and text samples contain fictional values and were authored for this test corpus. Original scripts and synthetic samples are provided under the root MIT license.
+
+## User-provided GHAttack paper
+
+- File: `samples/pdf/ghattack.pdf`
+- Original filename: `GHAttack - Generative adversarial attacks on heterogeneous graph neural networks.pdf`
+- Uploaded unchanged at the user's explicit request.
+- License identifier: `NOASSERTION`; no additional reuse license is asserted. Original copyright and embedded notices remain applicable. The repository MIT license does not relicense this paper.

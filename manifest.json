@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "sample_commit": "efcef6d6d5455206fb2c913d846df8809a9dc879",
+  "sample_commit": "dfe039231381c76d47e7607da9f77813a6b59950",
   "repository": "ShaoxinLi/mineru-pipeline-test-corpus",
   "scope": "15 extensions explicitly documented by https://mineru.net/apiManage/docs on 2026-11-04, plus user-requested md/txt/rst/tex (not documented API formats).",
   "stats": {
-    "files": 44,
+    "files": 45,
     "extensions": {
       "bmp": 1,
       "doc": 3,
@@ -15,7 +15,7 @@
       "jpeg": 2,
       "jpg": 4,
       "md": 1,
-      "pdf": 7,
+      "pdf": 8,
       "png": 2,
       "ppt": 3,
       "pptx": 2,
@@ -26,7 +26,7 @@
       "xls": 4,
       "xlsx": 1
     },
-    "total_bytes": 7475618,
+    "total_bytes": 7826703,
     "local_structure_validation": "passed",
     "pipeline_execution": "not_run",
     "api_documentation_checked": "2026-11-04"
@@ -63,7 +63,7 @@
       "suite": "official_api",
       "smoke": true,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/bmp/receipt_baseline_bmp.bmp"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/bmp/receipt_baseline_bmp.bmp"
     },
     {
       "id": "tika_word_legacy",
@@ -89,7 +89,7 @@
       "suite": "official_api",
       "smoke": true,
       "source_url": "https://raw.githubusercontent.com/apache/tika/48010f83ad3869119f54546cbb272fde88130283/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testWORD.doc",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/doc/tika_testWORD.doc"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/doc/tika_testWORD.doc"
     },
     {
       "id": "tika_word_images",
@@ -115,7 +115,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/apache/tika/48010f83ad3869119f54546cbb272fde88130283/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testWORD_3imgs.doc",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/doc/tika_testWORD_3imgs.doc"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/doc/tika_testWORD_3imgs.doc"
     },
     {
       "id": "tika_word_numbered_list",
@@ -141,7 +141,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/apache/tika/48010f83ad3869119f54546cbb272fde88130283/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testWORD_numbered_list.doc",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/doc/tika_testWORD_numbered_list.doc"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/doc/tika_testWORD_numbered_list.doc"
     },
     {
       "id": "markitdown_word_baseline",
@@ -168,7 +168,7 @@
       "suite": "official_api",
       "smoke": true,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/test.docx",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/docx/markitdown_test.docx"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/docx/markitdown_test.docx"
     },
     {
       "id": "markitdown_word_comments",
@@ -195,7 +195,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/test_with_comment.docx",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/docx/markitdown_test_with_comment.docx"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/docx/markitdown_test_with_comment.docx"
     },
     {
       "id": "markitdown_word_equations",
@@ -222,7 +222,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/equations.docx",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/docx/markitdown_equations.docx"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/docx/markitdown_equations.docx"
     },
     {
       "id": "markitdown_word_relative_links",
@@ -249,7 +249,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/rlink.docx",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/docx/markitdown_rlink.docx"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/docx/markitdown_rlink.docx"
     },
     {
       "id": "receipt_baseline_gif",
@@ -282,7 +282,7 @@
       "suite": "official_api",
       "smoke": true,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/gif/receipt_baseline_gif.gif"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/gif/receipt_baseline_gif.gif"
     },
     {
       "id": "synthetic_bilingual_report_html",
@@ -308,7 +308,7 @@
       "model_version": "MinerU-HTML",
       "suite": "official_api",
       "smoke": true,
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/html/synthetic_bilingual_report.html"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/html/synthetic_bilingual_report.html"
     },
     {
       "id": "receipt_baseline_jp2",
@@ -341,7 +341,7 @@
       "suite": "official_api",
       "smoke": true,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/jp2/receipt_baseline_jp2.jp2"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/jp2/receipt_baseline_jp2.jp2"
     },
     {
       "id": "tika_jp2_upstream",
@@ -369,7 +369,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/apache/tika/48010f83ad3869119f54546cbb272fde88130283/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-image-module/src/test/resources/test-documents/testJPEG.jp2",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/jp2/tika_testJPEG.jp2"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/jp2/tika_testJPEG.jp2"
     },
     {
       "id": "receipt_baseline_jpeg",
@@ -402,7 +402,7 @@
       "suite": "official_api",
       "smoke": true,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/jpeg/receipt_baseline_jpeg.jpeg"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/jpeg/receipt_baseline_jpeg.jpeg"
     },
     {
       "id": "receipt_low_quality",
@@ -435,7 +435,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/jpeg/receipt_low_quality.jpeg"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/jpeg/receipt_low_quality.jpeg"
     },
     {
       "id": "receipt_baseline_jpg",
@@ -468,7 +468,7 @@
       "suite": "official_api",
       "smoke": true,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/jpg/receipt_baseline_jpg.jpg"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/jpg/receipt_baseline_jpg.jpg"
     },
     {
       "id": "markitdown_image_baseline",
@@ -496,7 +496,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/test.jpg",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/jpg/markitdown_test.jpg"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/jpg/markitdown_test.jpg"
     },
     {
       "id": "markitdown_image_diagram",
@@ -524,7 +524,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/test_llm.jpg",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/jpg/markitdown_test_llm.jpg"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/jpg/markitdown_test_llm.jpg"
     },
     {
       "id": "receipt_rotated_90",
@@ -557,7 +557,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/jpg/receipt_rotated_90.jpg"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/jpg/receipt_rotated_90.jpg"
     },
     {
       "id": "synthetic_bilingual_report_md",
@@ -583,7 +583,7 @@
       "model_version": null,
       "suite": "extra_text",
       "smoke": true,
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/md/synthetic_bilingual_report.md"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/md/synthetic_bilingual_report.md"
     },
     {
       "id": "markitdown_pdf_receipt",
@@ -610,7 +610,7 @@
       "suite": "official_api",
       "smoke": true,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/pdf/markitdown_RECEIPT-2024-TXN-98765_retail_purchase.pdf"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/pdf/markitdown_RECEIPT-2024-TXN-98765_retail_purchase.pdf"
     },
     {
       "id": "markitdown_pdf_baseline",
@@ -637,7 +637,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/test.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/pdf/markitdown_test.pdf"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/pdf/markitdown_test.pdf"
     },
     {
       "id": "markitdown_pdf_booking",
@@ -664,7 +664,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/movie-theater-booking-2024.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/pdf/markitdown_movie-theater-booking-2024.pdf"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/pdf/markitdown_movie-theater-booking-2024.pdf"
     },
     {
       "id": "markitdown_pdf_borderless_table",
@@ -691,7 +691,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/SPARSE-2024-INV-1234_borderless_table.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/pdf/markitdown_SPARSE-2024-INV-1234_borderless_table.pdf"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/pdf/markitdown_SPARSE-2024-INV-1234_borderless_table.pdf"
     },
     {
       "id": "markitdown_pdf_multipage",
@@ -718,7 +718,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/REPAIR-2022-INV-001_multipage.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/pdf/markitdown_REPAIR-2022-INV-001_multipage.pdf"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/pdf/markitdown_REPAIR-2022-INV-001_multipage.pdf"
     },
     {
       "id": "markitdown_pdf_numbered_list",
@@ -745,7 +745,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/masterformat_partial_numbering.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/pdf/markitdown_masterformat_partial_numbering.pdf"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/pdf/markitdown_masterformat_partial_numbering.pdf"
     },
     {
       "id": "markitdown_pdf_scan",
@@ -772,7 +772,36 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/MEDRPT-2024-PAT-3847_medical_report_scan.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/pdf/markitdown_MEDRPT-2024-PAT-3847_medical_report_scan.pdf"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/pdf/markitdown_MEDRPT-2024-PAT-3847_medical_report_scan.pdf"
+    },
+    {
+      "id": "user_ghattack_paper",
+      "origin": "user-provided",
+      "repository": "ShaoxinLi/mineru-pipeline-test-corpus",
+      "commit": "dfe039231381c76d47e7607da9f77813a6b59950",
+      "source_path": "samples/pdf/ghattack.pdf",
+      "path": "samples/pdf/ghattack.pdf",
+      "extension": "pdf",
+      "original_filename": "GHAttack - Generative adversarial attacks on heterogeneous graph neural networks.pdf",
+      "source_size": 351085,
+      "source_git_blob_sha": "7126e8f1907ef474960fe036da78b56dc7ef9acb",
+      "license": "NOASSERTION",
+      "license_note": "User-provided paper, uploaded at the user's explicit request. Original rights and embedded notices retained; not relicensed under the repository MIT license.",
+      "scenario": "research_paper_heterogeneous_graph_adversarial_attacks",
+      "kind": "user-provided",
+      "modification": "none",
+      "validation": {
+        "bytes": 351085,
+        "sha256": "f9225cc94f78ac3f500b183fb0ba9db78a59e831434278c04e73911412a07c4a",
+        "pages": 15,
+        "text_layer_characters": 91527
+      },
+      "documented_api": true,
+      "model_version": "vlm",
+      "suite": "official_api",
+      "smoke": false,
+      "source_url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/pdf/ghattack.pdf",
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/pdf/ghattack.pdf"
     },
     {
       "id": "receipt_baseline_png",
@@ -805,7 +834,7 @@
       "suite": "official_api",
       "smoke": true,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/png/receipt_baseline_png.png"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/png/receipt_baseline_png.png"
     },
     {
       "id": "receipt_rgba",
@@ -838,7 +867,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/png/receipt_rgba.png"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/png/receipt_rgba.png"
     },
     {
       "id": "tika_slides_legacy",
@@ -864,7 +893,7 @@
       "suite": "official_api",
       "smoke": true,
       "source_url": "https://raw.githubusercontent.com/apache/tika/48010f83ad3869119f54546cbb272fde88130283/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testPPT.ppt",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/ppt/tika_testPPT.ppt"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/ppt/tika_testPPT.ppt"
     },
     {
       "id": "tika_slides_grouped_shapes",
@@ -890,7 +919,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/apache/tika/48010f83ad3869119f54546cbb272fde88130283/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testPPT_groups.ppt",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/ppt/tika_testPPT_groups.ppt"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/ppt/tika_testPPT_groups.ppt"
     },
     {
       "id": "tika_slides_images",
@@ -916,7 +945,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/apache/tika/48010f83ad3869119f54546cbb272fde88130283/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testPPT_2imgs.ppt",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/ppt/tika_testPPT_2imgs.ppt"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/ppt/tika_testPPT_2imgs.ppt"
     },
     {
       "id": "markitdown_slides_baseline",
@@ -942,7 +971,7 @@
       "suite": "official_api",
       "smoke": true,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/test.pptx",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/pptx/markitdown_test.pptx"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/pptx/markitdown_test.pptx"
     },
     {
       "id": "markitdown_slides_svg",
@@ -968,7 +997,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/test_svg_no_fallback.pptx",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/pptx/markitdown_test_svg_no_fallback.pptx"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/pptx/markitdown_test_svg_no_fallback.pptx"
     },
     {
       "id": "synthetic_bilingual_report_rst",
@@ -994,7 +1023,7 @@
       "model_version": null,
       "suite": "extra_text",
       "smoke": true,
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/rst/synthetic_bilingual_report.rst"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/rst/synthetic_bilingual_report.rst"
     },
     {
       "id": "synthetic_bilingual_report_tex",
@@ -1020,7 +1049,7 @@
       "model_version": null,
       "suite": "extra_text",
       "smoke": true,
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/tex/synthetic_bilingual_report.tex"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/tex/synthetic_bilingual_report.tex"
     },
     {
       "id": "synthetic_bilingual_report_txt",
@@ -1046,7 +1075,7 @@
       "model_version": null,
       "suite": "extra_text",
       "smoke": true,
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/txt/synthetic_bilingual_report.txt"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/txt/synthetic_bilingual_report.txt"
     },
     {
       "id": "synthetic_gb18030",
@@ -1072,7 +1101,7 @@
       "model_version": null,
       "suite": "extra_text",
       "smoke": false,
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/txt/synthetic_gb18030.txt"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/txt/synthetic_gb18030.txt"
     },
     {
       "id": "synthetic_utf8_bom_crlf",
@@ -1098,7 +1127,7 @@
       "model_version": null,
       "suite": "extra_text",
       "smoke": false,
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/txt/synthetic_utf8_bom_crlf.txt"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/txt/synthetic_utf8_bom_crlf.txt"
     },
     {
       "id": "receipt_baseline_webp",
@@ -1131,7 +1160,7 @@
       "suite": "official_api",
       "smoke": true,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/webp/receipt_baseline_webp.webp"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/webp/receipt_baseline_webp.webp"
     },
     {
       "id": "markitdown_spreadsheet_legacy",
@@ -1157,7 +1186,7 @@
       "suite": "official_api",
       "smoke": true,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/test.xls",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/xls/markitdown_test.xls"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/xls/markitdown_test.xls"
     },
     {
       "id": "tika_spreadsheet_charts",
@@ -1183,7 +1212,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/apache/tika/48010f83ad3869119f54546cbb272fde88130283/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testEXCEL-charts.xls",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/xls/tika_testEXCEL-charts.xls"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/xls/tika_testEXCEL-charts.xls"
     },
     {
       "id": "tika_spreadsheet_dates",
@@ -1209,7 +1238,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/apache/tika/48010f83ad3869119f54546cbb272fde88130283/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testEXCEL_dateFormats.xls",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/xls/tika_testEXCEL_dateFormats.xls"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/xls/tika_testEXCEL_dateFormats.xls"
     },
     {
       "id": "tika_spreadsheet_links",
@@ -1235,7 +1264,7 @@
       "suite": "official_api",
       "smoke": false,
       "source_url": "https://raw.githubusercontent.com/apache/tika/48010f83ad3869119f54546cbb272fde88130283/tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/src/test/resources/test-documents/testEXCEL_hyperlinks.xls",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/xls/tika_testEXCEL_hyperlinks.xls"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/xls/tika_testEXCEL_hyperlinks.xls"
     },
     {
       "id": "markitdown_spreadsheet_modern",
@@ -1261,7 +1290,7 @@
       "suite": "official_api",
       "smoke": true,
       "source_url": "https://raw.githubusercontent.com/microsoft/markitdown/7482c092d9c0074a89803c9fdb63a969e7fe17fc/packages/markitdown/tests/test_files/test.xlsx",
-      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/efcef6d6d5455206fb2c913d846df8809a9dc879/samples/xlsx/markitdown_test.xlsx"
+      "url": "https://raw.githubusercontent.com/ShaoxinLi/mineru-pipeline-test-corpus/dfe039231381c76d47e7607da9f77813a6b59950/samples/xlsx/markitdown_test.xlsx"
     }
   ]
 }

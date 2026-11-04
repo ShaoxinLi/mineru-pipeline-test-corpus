@@ -1,7 +1,7 @@
 # MinerU pipeline URL 测试集
 
-共 49 个样本，19 种扩展名：44 个基础样本（约 7.48 MB）和 5 个边界样本。用于通过文件 URL 拉取输入的文档解析 pipeline。
-所有样本均为公开项目测试文件、其明确标注的图片转换版本，或本仓库合成文件。
+共 50 个样本，19 种扩展名：45 个基础样本（约 7.83 MB）和 5 个边界样本。用于通过文件 URL 拉取输入的文档解析 pipeline。
+样本包括公开项目测试文件、其明确标注的图片转换版本、本仓库合成文件，以及用户提供的 GHAttack 论文。
 
 另有 [5 个超页 / 超大边界样本](boundary/README.md)：200 页对照、201 页、1000 页 PDF，以及超过 200 MB 的 PDF 和 BMP。
 
@@ -11,9 +11,9 @@
 - [manifest.json](manifest.json)：机器可读清单，包含 URL、大小、SHA-256、来源 commit、许可、格式和测试分组。
 - [manifest.csv](manifest.csv)：便于表格工具查看的清单。
 - [urls_smoke.txt](urls_smoke.txt)：每种扩展名一个，共 19 个，适合第一轮连通性和格式测试。
-- **[urls.txt](urls.txt)：全部 49 个文件的 URL 汇总，一行一个；前 44 个为基础样本，最后 5 个为边界样本。**
-- [urls_regular.txt](urls_regular.txt)：原来的 44 个基础样本直链。
-- [urls_official_api.txt](urls_official_api.txt)：官网明确列出的格式，共 38 个文件。
+- **[urls.txt](urls.txt)：全部 50 个文件的 URL 汇总，一行一个；前 45 个为基础样本，最后 5 个为边界样本。**
+- [urls_regular.txt](urls_regular.txt)：原来的 45 个基础样本直链。
+- [urls_official_api.txt](urls_official_api.txt)：官网明确列出的格式，共 39 个文件。
 - [urls_extra_text.txt](urls_extra_text.txt)：额外文本格式，共 6 个文件。
 
 普通样本 URL 使用完整 Git commit 固定文件内容；两个超大文件使用 `boundary-v1` Release 附件直链。全部样本均不使用 Git LFS。
@@ -26,7 +26,7 @@
 
 | 分组 | 扩展名 | 文件数 | 路由建议 |
 |---|---|---:|---|
-| PDF | `.pdf` | 7 | `vlm` 或 `pipeline` |
+| PDF | `.pdf` | 8 | `vlm` 或 `pipeline` |
 | 图片 | `.png` `.jpg` `.jpeg` `.jp2` `.webp` `.gif` `.bmp` | 13 | `vlm` 或 `pipeline` |
 | Word | `.doc` `.docx` | 7 | `vlm` 或 `pipeline` |
 | PowerPoint | `.ppt` `.pptx` | 5 | `vlm` 或 `pipeline` |
@@ -54,7 +54,7 @@
 
 ## API 请求示例
 
-[requests/vlm_batch.json](requests/vlm_batch.json) 包含 37 个非 HTML 官网格式样本；
+[requests/vlm_batch.json](requests/vlm_batch.json) 包含 38 个非 HTML 官网格式样本；
 [requests/html_batch.json](requests/html_batch.json) 包含 1 个 HTML 样本。
 这两个文件是标准 JSON 请求体，可用于官网的 URL 批量提交接口，或映射到兼容的自建接口。
 四种额外文本格式不会混入这两个请求体。
@@ -84,7 +84,7 @@ Raw 返回的 HTTP Content-Type 不一定是格式专用 MIME；建议保留 URL
 这些检查不等同于解析精度验证。
 
 [verification/remote.json](verification/remote.json) 记录匿名 GET 下载的 HTTP 状态、字节数与 SHA-256 校验结果。
-首次发布验证结果：**44/44 通过**。
+当前基础样本验证结果：**45/45 通过**。
 该报告来自运行校验脚本的机器，不代表已经在公司内网运行；尚未调用用户的解析 pipeline。
 
 仅检查内网下载时，`verify_urls.py` 只依赖 Python 标准库：
@@ -110,7 +110,7 @@ uv pip install --python .venv/bin/python -r requirements.txt
 
 ## 来源与许可
 
-27 个原始文件来自 Microsoft MarkItDown 和 Apache Tika 的测试目录，保留原始字节。
+27 个原始文件来自 Microsoft MarkItDown 和 Apache Tika 的测试目录，另有 1 个用户提供的 GHAttack 论文 PDF，均保留原始字节。
 10 个图片是 MarkItDown 小票 PDF 的转换版本；7 个中英文网页/文本文件由本仓库合成。
 详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)、[licenses](licenses) 和每条 manifest 的来源信息。
 本仓库原创脚本及合成内容使用 MIT；第三方文件保留其上游许可与版权声明，不因仓库根 LICENSE 而重新许可。
