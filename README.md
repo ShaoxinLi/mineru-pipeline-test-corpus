@@ -81,6 +81,7 @@ Raw 返回的 HTTP Content-Type 不一定是格式专用 MIME；建议保留 URL
 这些检查不等同于解析精度验证。
 
 [verification/remote.json](verification/remote.json) 记录匿名 GET 下载的 HTTP 状态、字节数与 SHA-256 校验结果。
+首次发布验证结果：**44/44 通过**。
 该报告来自运行校验脚本的机器，不代表已经在公司内网运行；尚未调用用户的解析 pipeline。
 
 仅检查内网下载时，`verify_urls.py` 只依赖 Python 标准库：
