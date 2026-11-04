@@ -1,0 +1,314 @@
+[
+  {
+    "id": "receipt_baseline_png",
+    "origin": "derived-markitdown",
+    "path": "samples/png/receipt_baseline_png.png",
+    "extension": "png",
+    "license": "MIT",
+    "scenario": "same_receipt_document_format_comparison",
+    "kind": "derived",
+    "modification": "same_receipt_document_format_comparison",
+    "expected_text_contains": [
+      "TECHMART ELECTRONICS",
+      "821.14"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth.",
+    "repository": "microsoft/markitdown",
+    "commit": "7482c092d9c0074a89803c9fdb63a969e7fe17fc",
+    "source_path": "packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
+    "derived_from": "markitdown_pdf_receipt",
+    "source_page": 1
+  },
+  {
+    "id": "receipt_baseline_jpg",
+    "origin": "derived-markitdown",
+    "path": "samples/jpg/receipt_baseline_jpg.jpg",
+    "extension": "jpg",
+    "license": "MIT",
+    "scenario": "same_receipt_document_format_comparison",
+    "kind": "derived",
+    "modification": "same_receipt_document_format_comparison",
+    "expected_text_contains": [
+      "TECHMART ELECTRONICS",
+      "821.14"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth.",
+    "repository": "microsoft/markitdown",
+    "commit": "7482c092d9c0074a89803c9fdb63a969e7fe17fc",
+    "source_path": "packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
+    "derived_from": "markitdown_pdf_receipt",
+    "source_page": 1
+  },
+  {
+    "id": "receipt_baseline_jpeg",
+    "origin": "derived-markitdown",
+    "path": "samples/jpeg/receipt_baseline_jpeg.jpeg",
+    "extension": "jpeg",
+    "license": "MIT",
+    "scenario": "same_receipt_document_format_comparison",
+    "kind": "derived",
+    "modification": "same_receipt_document_format_comparison",
+    "expected_text_contains": [
+      "TECHMART ELECTRONICS",
+      "821.14"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth.",
+    "repository": "microsoft/markitdown",
+    "commit": "7482c092d9c0074a89803c9fdb63a969e7fe17fc",
+    "source_path": "packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
+    "derived_from": "markitdown_pdf_receipt",
+    "source_page": 1
+  },
+  {
+    "id": "receipt_baseline_webp",
+    "origin": "derived-markitdown",
+    "path": "samples/webp/receipt_baseline_webp.webp",
+    "extension": "webp",
+    "license": "MIT",
+    "scenario": "same_receipt_document_format_comparison",
+    "kind": "derived",
+    "modification": "same_receipt_document_format_comparison",
+    "expected_text_contains": [
+      "TECHMART ELECTRONICS",
+      "821.14"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth.",
+    "repository": "microsoft/markitdown",
+    "commit": "7482c092d9c0074a89803c9fdb63a969e7fe17fc",
+    "source_path": "packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
+    "derived_from": "markitdown_pdf_receipt",
+    "source_page": 1
+  },
+  {
+    "id": "receipt_baseline_gif",
+    "origin": "derived-markitdown",
+    "path": "samples/gif/receipt_baseline_gif.gif",
+    "extension": "gif",
+    "license": "MIT",
+    "scenario": "same_receipt_document_format_comparison",
+    "kind": "derived",
+    "modification": "same_receipt_document_format_comparison",
+    "expected_text_contains": [
+      "TECHMART ELECTRONICS",
+      "821.14"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth.",
+    "repository": "microsoft/markitdown",
+    "commit": "7482c092d9c0074a89803c9fdb63a969e7fe17fc",
+    "source_path": "packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
+    "derived_from": "markitdown_pdf_receipt",
+    "source_page": 1
+  },
+  {
+    "id": "receipt_baseline_bmp",
+    "origin": "derived-markitdown",
+    "path": "samples/bmp/receipt_baseline_bmp.bmp",
+    "extension": "bmp",
+    "license": "MIT",
+    "scenario": "same_receipt_document_format_comparison",
+    "kind": "derived",
+    "modification": "same_receipt_document_format_comparison",
+    "expected_text_contains": [
+      "TECHMART ELECTRONICS",
+      "821.14"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth.",
+    "repository": "microsoft/markitdown",
+    "commit": "7482c092d9c0074a89803c9fdb63a969e7fe17fc",
+    "source_path": "packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
+    "derived_from": "markitdown_pdf_receipt",
+    "source_page": 1
+  },
+  {
+    "id": "receipt_baseline_jp2",
+    "origin": "derived-markitdown",
+    "path": "samples/jp2/receipt_baseline_jp2.jp2",
+    "extension": "jp2",
+    "license": "MIT",
+    "scenario": "same_receipt_document_format_comparison",
+    "kind": "derived",
+    "modification": "same_receipt_document_format_comparison",
+    "expected_text_contains": [
+      "TECHMART ELECTRONICS",
+      "821.14"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth.",
+    "repository": "microsoft/markitdown",
+    "commit": "7482c092d9c0074a89803c9fdb63a969e7fe17fc",
+    "source_path": "packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
+    "derived_from": "markitdown_pdf_receipt",
+    "source_page": 1
+  },
+  {
+    "id": "receipt_rotated_90",
+    "origin": "derived-markitdown",
+    "path": "samples/jpg/receipt_rotated_90.jpg",
+    "extension": "jpg",
+    "license": "MIT",
+    "scenario": "ocr_document_rotated_90_degrees",
+    "kind": "derived",
+    "modification": "ocr_document_rotated_90_degrees",
+    "expected_text_contains": [
+      "TECHMART ELECTRONICS",
+      "821.14"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth.",
+    "repository": "microsoft/markitdown",
+    "commit": "7482c092d9c0074a89803c9fdb63a969e7fe17fc",
+    "source_path": "packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
+    "derived_from": "markitdown_pdf_receipt",
+    "source_page": 1
+  },
+  {
+    "id": "receipt_low_quality",
+    "origin": "derived-markitdown",
+    "path": "samples/jpeg/receipt_low_quality.jpeg",
+    "extension": "jpeg",
+    "license": "MIT",
+    "scenario": "ocr_low_resolution_lossy_compression",
+    "kind": "derived",
+    "modification": "ocr_low_resolution_lossy_compression",
+    "expected_text_contains": [
+      "TECHMART ELECTRONICS",
+      "821.14"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth.",
+    "repository": "microsoft/markitdown",
+    "commit": "7482c092d9c0074a89803c9fdb63a969e7fe17fc",
+    "source_path": "packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
+    "derived_from": "markitdown_pdf_receipt",
+    "source_page": 1
+  },
+  {
+    "id": "receipt_rgba",
+    "origin": "derived-markitdown",
+    "path": "samples/png/receipt_rgba.png",
+    "extension": "png",
+    "license": "MIT",
+    "scenario": "rgba_image_mode_opaque_alpha",
+    "kind": "derived",
+    "modification": "rgba_image_mode_opaque_alpha",
+    "expected_text_contains": [
+      "TECHMART ELECTRONICS",
+      "821.14"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth.",
+    "repository": "microsoft/markitdown",
+    "commit": "7482c092d9c0074a89803c9fdb63a969e7fe17fc",
+    "source_path": "packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
+    "derived_from": "markitdown_pdf_receipt",
+    "source_page": 1
+  },
+  {
+    "id": "synthetic_bilingual_report_html",
+    "origin": "original",
+    "path": "samples/html/synthetic_bilingual_report.html",
+    "extension": "html",
+    "license": "MIT",
+    "scenario": "bilingual_headings_table_formula_list",
+    "kind": "synthetic",
+    "modification": "bilingual_headings_table_formula_list",
+    "expected_text_contains": [
+      "CORPUS-2026-001",
+      "77.50",
+      "END-OF-SAMPLE"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth."
+  },
+  {
+    "id": "synthetic_bilingual_report_md",
+    "origin": "original",
+    "path": "samples/md/synthetic_bilingual_report.md",
+    "extension": "md",
+    "license": "MIT",
+    "scenario": "bilingual_headings_table_formula_list",
+    "kind": "synthetic",
+    "modification": "bilingual_headings_table_formula_list",
+    "expected_text_contains": [
+      "CORPUS-2026-001",
+      "77.50",
+      "END-OF-SAMPLE"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth."
+  },
+  {
+    "id": "synthetic_bilingual_report_txt",
+    "origin": "original",
+    "path": "samples/txt/synthetic_bilingual_report.txt",
+    "extension": "txt",
+    "license": "MIT",
+    "scenario": "bilingual_headings_table_formula_list",
+    "kind": "synthetic",
+    "modification": "bilingual_headings_table_formula_list",
+    "expected_text_contains": [
+      "CORPUS-2026-001",
+      "77.50",
+      "END-OF-SAMPLE"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth."
+  },
+  {
+    "id": "synthetic_bilingual_report_rst",
+    "origin": "original",
+    "path": "samples/rst/synthetic_bilingual_report.rst",
+    "extension": "rst",
+    "license": "MIT",
+    "scenario": "bilingual_headings_table_formula_list",
+    "kind": "synthetic",
+    "modification": "bilingual_headings_table_formula_list",
+    "expected_text_contains": [
+      "CORPUS-2026-001",
+      "77.50",
+      "END-OF-SAMPLE"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth."
+  },
+  {
+    "id": "synthetic_bilingual_report_tex",
+    "origin": "original",
+    "path": "samples/tex/synthetic_bilingual_report.tex",
+    "extension": "tex",
+    "license": "MIT",
+    "scenario": "bilingual_headings_table_formula_list",
+    "kind": "synthetic",
+    "modification": "bilingual_headings_table_formula_list",
+    "expected_text_contains": [
+      "CORPUS-2026-001",
+      "77.50",
+      "END-OF-SAMPLE"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth."
+  },
+  {
+    "id": "synthetic_utf8_bom_crlf",
+    "origin": "original",
+    "path": "samples/txt/synthetic_utf8_bom_crlf.txt",
+    "extension": "txt",
+    "license": "MIT",
+    "scenario": "text_encoding_utf8_bom_crlf",
+    "kind": "synthetic",
+    "modification": "text_encoding_utf8_bom_crlf",
+    "expected_text_contains": [
+      "CORPUS-2026-001",
+      "77.50",
+      "END-OF-SAMPLE"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth."
+  },
+  {
+    "id": "synthetic_gb18030",
+    "origin": "original",
+    "path": "samples/txt/synthetic_gb18030.txt",
+    "extension": "txt",
+    "license": "MIT",
+    "scenario": "text_encoding_gb18030",
+    "kind": "synthetic",
+    "modification": "text_encoding_gb18030",
+    "expected_text_contains": [
+      "CORPUS-2026-001",
+      "77.50",
+      "END-OF-SAMPLE"
+    ],
+    "expectation_note": "Human-readable content anchors, not a complete accuracy ground truth."
+  }
+]
